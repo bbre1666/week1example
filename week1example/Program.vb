@@ -10,12 +10,13 @@ Module Program
         'Console.WriteLine()
         'Console.Write("")
         'Console.Beep(200, 1000)
-        Console.Beep(392, 500)
-        Console.Beep(440, 500)
-        Console.Beep(349, 750)
-        Console.Beep(196, 750)
-        Console.Beep(262, 900)
+        Console.Beep(392, 500)  'G4
+        Console.Beep(440, 500)  'A4
+        Console.Beep(349, 750)  'F4
+        Console.Beep(196, 750)  'G3
+        Console.Beep(262, 900)  'C4
 
+        Console.WriteLine("Fancy Beep")
 
     End Sub
 End Module
