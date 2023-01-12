@@ -17,6 +17,7 @@ Module Program
         Console.Beep(262, 900)  'C4
 
         Console.WriteLine("Fancy Beep")
+        Console.WriteLine("Credit Tim Rossiter")
 
     End Sub
 End Module
